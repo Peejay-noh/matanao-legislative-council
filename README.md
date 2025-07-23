@@ -92,3 +92,45 @@
   </footer>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ordinances & Resolutions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      color: #333;
+      padding: 20px;
+    }
+    h1 {
+      color: orange;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    a {
+      color: orange;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ordinances & Resolutions</h1>
+  <ul>
+    <li><a href="#">Ordinance No. 001 – Example Ordinance Title</a></li>
+    <li><a href="#">Resolution No. 002 – Example Resolution Title</a></li>
+  </ul>
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
+

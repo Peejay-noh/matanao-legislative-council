@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: white;
+      background-darkorange: white;
       margin: 0;
       color: #333;
     }
@@ -131,6 +131,5 @@
     <li><a href="#">Resolution No. 002 – Example Resolution Title</a></li>
   </ul>
   <p><a href="index.html">← Back to Home</a></p>
-</body>
-</html>
+
 

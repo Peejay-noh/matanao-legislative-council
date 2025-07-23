@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-darkorange: white;
+      background-color: white;
       margin: 0;
       color: #333;
     }
@@ -21,9 +21,12 @@
       background: #fff3e0;
       padding: 10px;
       text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     nav a {
-      margin: 0 15px;
+      margin: 10px;
       color: orange;
       text-decoration: none;
       font-weight: bold;
@@ -51,6 +54,12 @@
       text-align: center;
       color: #555;
     }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -68,17 +77,27 @@
 
   <section id="news">
     <h2 class="section-title">Latest News</h2>
-    <p>No news yet. Check back soon.</p>
+    <article>
+      <h3>New Ordinance Passed on Environmental Protection</h3>
+      <p><strong>Date:</strong> July 15, 2025</p>
+      <p>The 21st Legislative Council has passed a new ordinance focused on preserving local rivers and water sources. This marks a significant step in ensuring environmental sustainability within Matanao.</p>
+    </article>
   </section>
 
   <section id="meetings">
     <h2 class="section-title">Council Meetings</h2>
-    <p>Upcoming meeting schedule and archives of previous sessions will appear here.</p>
+    <ul>
+      <li><strong>July 10, 2025:</strong> Regular Session – Budget Planning for 2026</li>
+      <li><strong>June 25, 2025:</strong> Special Session – Emergency Response Ordinance</li>
+    </ul>
   </section>
 
   <section id="hearings">
     <h2 class="section-title">Committee Hearings</h2>
-    <p>Committee hearings and public consultations will be posted here.</p>
+    <ul>
+      <li><strong>July 5, 2025:</strong> Public Health Committee – Updates on Rural Clinic Program</li>
+      <li><strong>June 20, 2025:</strong> Infrastructure Committee – Road Rehabilitation Plans</li>
+    </ul>
   </section>
 
   <section id="ordinances">
@@ -92,44 +111,3 @@
   </footer>
 </body>
 </html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ordinances & Resolutions</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: white;
-      color: #333;
-      padding: 20px;
-    }
-    h1 {
-      color: orange;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin: 10px 0;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 5px;
-    }
-    a {
-      color: orange;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <h1>Ordinances & Resolutions</h1>
-  <ul>
-    <li><a href="#">Ordinance No. 001 – Example Ordinance Title</a></li>
-    <li><a href="#">Resolution No. 002 – Example Resolution Title</a></li>
-  </ul>
-  <p><a href="index.html">← Back to Home</a></p>
-
-
